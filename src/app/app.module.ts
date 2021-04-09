@@ -10,6 +10,13 @@ import { TodoItemComponent } from './components/todo-item/todo-item.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { AddTodoComponent } from './components/add-todo/add-todo.component';
 import { AboutComponent } from './components/pages/about/about.component';
+import { FormsComponent } from './components/forms/forms.component';
+import { FormsDirective } from './forms.directive';
+import { FilterPipe } from './pipes/filter.pipe';
+import { CountriesComponent } from './compomemts/countries/countries.component';
+import { TemplateforComponent } from './components/templatefor/templatefor.component';
+import { LoginFormComponent } from './components/login-form/login-form.component';
+import { NewFormComponent } from './components/new-form/new-form.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +25,14 @@ import { AboutComponent } from './components/pages/about/about.component';
     TodoItemComponent,
     HeaderComponent,
     AddTodoComponent,
-    AboutComponent
+    AboutComponent,
+    FormsComponent,
+    FormsDirective,
+    FilterPipe,
+    CountriesComponent,
+    TemplateforComponent,
+    LoginFormComponent,
+    NewFormComponent
   ],
   imports: [
     HttpClientModule,
